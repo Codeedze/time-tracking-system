@@ -130,7 +130,7 @@ VALUES ('Admin', 'admin@tts.com', 'admin123', 'ADMIN');
 Open `src/db/DBConnection.java` and update the password constant:
 
 ```java
-private static final String PASSWORD = "databasekshitiz";
+private static final String PASSWORD = "your_mariadb_password";
 ```
 
 Replace `your_mariadb_password` with your local MariaDB password. Do not commit real passwords or other secrets to a public repository.
